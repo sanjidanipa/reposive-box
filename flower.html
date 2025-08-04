@@ -149,25 +149,25 @@
 
      <!-- plants section -->
       
-      <!-- <div class="plants-lover flex justify-between items-start px-1 gap-4  md:mb-15 mb-5">
+      <div class="plants-lover flex flex-col justify-between items-start px-1 gap-4  md:mb-15 mb-5">
         <div class="flower-lover-img">
-          <img class="badge" src="assets/trusted-badge.png" alt="" />
+          <img class="badge hidden" src="assets/trusted-badge.png" alt="" />
           <img class="nature-img w-full " src="image 7.png" alt="" />
         </div>
 
-        <div class="text-start w-1/2">
+        <div class="text-start w-full">
           <h1 class="plants-lover-title font-bold text-2xl md:text-5xl md:mb-5 mb-4">
             Flower & Plants <br class="hidden md:block"> Lover
           </h1>
-      <div class="text-gray-500  space-y-5">
-              <p class="text-sm md:text-xl"> Indulge your senses with the beauty and  fragrance of our fresh flower shop. From classic <br> roses to exotic blooms, we offer a
-                wide variety <br>of fresh.
+      <div class="text-gray-500  space-y-5 mx-3">
+              <p class="text-sm md:text-xl"> Indulge your senses with the beauty and  fragrance of our fresh flower shop. From classic<br class="hidden md:block"> roses to exotic blooms, we offer a
+                wide variety <br class="hidden md:block">of fresh.
               </p>
-              <p class="text-sm md:text-xl"> Indulge your senses with the beauty and <br> fragrance of our fresh flower shop. From classic <br> roses to exotic blooms, we offer a
-                wide variety <br>of fresh.
+              <p class="text-sm md:text-xl"> Indulge your senses with the beauty and<br class="hidden md:block"> fragrance of our fresh flower shop. From classic <br class="hidden md:block"> roses to exotic blooms, we offer a
+                wide variety <br class="hidden md:block">of fresh.
               </p>
-              <p class="text-sm md:text-xl"> Indulge your senses with the beauty and <br> fragrance of our fresh flower shop. From classic <br> roses to exotic blooms, we offer a
-                wide variety <br>of fresh.
+              <p class="text-sm md:text-xl"> Indulge your senses with the beauty and <br class="hidden md:block">fragrance of our fresh flower shop. From classic <br class="hidden md:block">> roses to exotic blooms, we offer a
+                wide variety <br class="hidden md:block">of fresh.
               </p>
                
         
@@ -175,9 +175,9 @@
               
       </div>
              </div>
-      </div> -->
+      </div>
 
-      <div class="dealsplants text-center md:w-3/4 mx-4 md:mx-auto md:mb-15 mb-7">
+      <div class="dealsplants text-center md:w-3/4 mx-4 md:mx-auto md:mb-15 mb-7 px-1">
         <h1 class="md:text-5xl font-bold mb-4 text-2xl"><span class="text-[#E95A08]">Latest</span> Deals</h1>
         <p class="deals-description md:text-2xl text-sm text-gray-600  text-center">
           Indulge your senses with the beauty and fragrance of our fresh flower
@@ -186,7 +186,7 @@
         </p>
       </div>
 
-      <div class="flower-offer grid grid-cols-1 md:grid-cols-3 md:gap-6 gap-4 w-full mb-15">
+      <div class="flower-offer grid grid-cols-1 md:grid-cols-3 md:gap-6 gap-4 w-full mb-15 px-4 mx-auto">
      
               <div class="w-full flex flex-col items-center justify-center gap-4 md:gap-6">
          <!-- image 1 -->
@@ -237,40 +237,42 @@
       
     </main>
 
-    <!-- <footer>
-      <section class="flower-join ">
-        <div class="join ">
-          <h1 class="noto-serif-font joining-title">Join the colorful Bunch</h1>
-          <div class="form">
+    <footer>
+      <section class="flower-join relative mb-12">
+        
+          <img src="assets/news-letter-bg.png" alt="" class="w-full ">
+            <div class="join absolute bg-black/40 inset-0 flex flex-col justify-center items-center text-white">
+          <h1 class="joining-title text-xl font-bold mb-6 md:text-5xl">Join the colorful Bunch</h1>
+          <div class="form flex justify-center items-center  w-full">
 
-              <input type="text" placeholder="Write email" />
-              <button class="subscribe-btn">Subscribe</button>
+              <input type="text" placeholder="Write email" class="bg-white text-base text-gray-600 px-5 py-2 md:w-1/2 outline-none"/>
+              <button class="subscribe-btn bg-[#E95A08] text-base font-semibold px-5 py-2">Subscribe</button>
             </div>
         </div>
       </section>
-
-      <div class="footer-column container">
+  
+      <div class="footer-column container mx-auto grid md:grid-cols-4 grid-cols-1 px-4 text-gray-500 ">
            <div class="footer-logo">
-            <img src="assets/logo.png" alt="">
+            <img src="assets/logo.png" alt="" class="mb-4">
             <p>Indulge your senses with the <br> beauty and fragrance of our fresh <br>flower shop. </p>
            </div>  
-          <div class="link-column">
-             <a href="">Home</a>
-            <a href="">About Us</a>
-            <a href="">Blog</a>
-            <a href="">FAQ</a>
-            <a href="">Contact Us</a></div>
+          <div class="link-column flex flex-col py-1">
+             <a href=""class="py-1">Home</a>
+            <a href="" class="py-1">About Us</a>
+            <a href="" class="py-1">Blog</a>
+            <a href="" class="py-1">FAQ</a>
+            <a href="" class="py-1">Contact Us</a></div>
           
-          <div class="link-column">
-             <a href="">Features</a>
-            <a href="">Pricing</a>
-            <a href="">Privacy Policy</a>
-            <a href="">Terms of Service</a>
-            <a href="">Help Center</a>
+          <div class="link-column flex flex-col py-1">
+             <a href="" class="py-1">Features</a>
+            <a href="" class="py-1">Pricing</a>
+            <a href="" class="py-1">Privacy Policy</a>
+            <a href="" class="py-1">Terms of Service</a>
+            <a href="" class="py-1" >Help Center</a>
                </div>
 
                
-        <div class="social-media">
+        <div class="social-media flex gap-4  py-2 ">
             <img src="assets/icon-linkedin.png" alt="">
             <img src="assets/twitter-logo-2 3.png" alt="">
             <img src="assets/icon-facebook.png" alt="">
@@ -278,7 +280,7 @@
         </div>
 </div>
         
-    </footer> -->
+    </footer>
   
   
 </body>
